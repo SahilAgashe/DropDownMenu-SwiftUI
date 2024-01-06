@@ -7,15 +7,23 @@
 
 import SwiftUI
 
+
+
+
+
+
 struct ContentView: View {
+    
+    @State private var selectedCountry: String?
+    @State private var selectedStateInBharat: String?
+    @State private var selectedCityInMaharashtra: String?
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            DropDownView(title: "Country", prompt: "Select", options: countries, selection: $selectedCountry)
+        
+            DropDownView(title: "City in Maharashtra", prompt: "Select", options: citiesInMaharashtra, selection: $selectedCityInMaharashtra)
         }
-        .padding()
     }
 }
 
