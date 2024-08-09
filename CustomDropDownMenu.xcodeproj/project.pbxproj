@@ -55,12 +55,10 @@
 		813E29C92B49BFC5008A4884 /* CustomDropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				813E29CA2B49BFC5008A4884 /* CustomDropDownMenuApp.swift */,
-				813E29CC2B49BFC5008A4884 /* ContentView.swift */,
-				813E29CE2B49BFC5008A4884 /* Assets.xcassets */,
-				813E29D02B49BFC5008A4884 /* Preview Content */,
-				813E29D82B49C0B8008A4884 /* DropDownView.swift */,
-				813E29DA2B49D59A008A4884 /* Constant.swift */,
+				815454DC2C6695C90038FC1E /* Application */,
+				815454DD2C6695F20038FC1E /* Views */,
+				815454DB2C6695B60038FC1E /* Supporting Files */,
+				815454DE2C6696050038FC1E /* Helpers */,
 			);
 			path = CustomDropDownMenu;
 			sourceTree = "<group>";
@@ -71,6 +69,40 @@
 				813E29D12B49BFC5008A4884 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		815454DB2C6695B60038FC1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813E29CE2B49BFC5008A4884 /* Assets.xcassets */,
+				813E29D02B49BFC5008A4884 /* Preview Content */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		815454DC2C6695C90038FC1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				813E29CA2B49BFC5008A4884 /* CustomDropDownMenuApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		815454DD2C6695F20038FC1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				813E29CC2B49BFC5008A4884 /* ContentView.swift */,
+				813E29D82B49C0B8008A4884 /* DropDownView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		815454DE2C6696050038FC1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				813E29DA2B49D59A008A4884 /* Constant.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomDropDownMenu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDropDownMenu/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomDropDownMenu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDropDownMenu/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

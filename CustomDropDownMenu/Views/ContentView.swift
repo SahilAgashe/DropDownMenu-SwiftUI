@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-
-
-
-
-
 struct ContentView: View {
     
     @State private var selectedCountry: String?
